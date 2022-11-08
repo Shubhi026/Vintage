@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vintage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="mainy">
+    <div id="back">
+        <nav>
+            <h2 class="st" >Vintage</h2>
+            <div id="links">
+                <a class="st" href="#">Jewellary</a>
+                <a class="st" href="#">Stores</a>
+                <a class="st" href="#">Sale</a>
+            </div>
+            <div id="menu">
+                <div class="st" id="l1"></div>
+                <div class="st" id="l2"></div>
+            </div>
+        </nav>
+        <div id="cntnt">
+            <h1>Discover <br> modern and <br> sculptural <br> forms</h1>
+            <div id="goal">
+                <i class="ri-arrow-down-line"></i>
+            </div>
+        </div>
+        <div id="main">
+            <div id="img">
+                <div id="over">
+                    <div id="over1"></div>
+                </div>
+            </div>
+            <div id="img1">
+                <div id="img2"></div>
+                <div id="img3"></div>
+            </div>
+            
+        </div>
+        <div id="main1">
+            <div id="img4"></div>
+            <div id="txts">
+                <div class="gol"></div>
+                <h2>I</h2>
+                <h1>/</h1>
+                <div class="gol"></div>
+                <h1 id="h">4</h1>
+            </div>
+            <div id="txt">
+                <h4>Our jewellery collection <br> features earrings and <br> rings.</h4>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        var menu = document.querySelector('#menu');
+        var back = document.querySelector('#back');
+
+        menu.addEventListener('click', function(){
+            back.style.transform = 'scale(.85)';
+            back.style.borderRadius = '10px';
+            back.style.boxShadow = '0 150px 45px -100px rgba(0, 0, 0, 0.2)';
+        })
+    </script>
+</body>
+</html>
